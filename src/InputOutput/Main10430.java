@@ -10,9 +10,9 @@ public class Main10430 {
         int b = scr.nextInt();
         int c = scr.nextInt();
 
-        System.out.println((a+b) % c);
-        System.out.println(((a%c) + (b%c)) % c);
+        System.out.println((a+b)%c);
+        System.out.println(((a%c)+(b%c))%c);
         System.out.println((a*b)%c);
-        System.out.println(((a%c) * (b%c))%c);
+        System.out.println(((a%c)*(b%c))%c);
     }
 }
