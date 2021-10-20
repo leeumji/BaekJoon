@@ -10,7 +10,8 @@ public class Main2741 {
 
         for (int i = 1; i <= a; i++) {
 
-            System.out.println();
+            System.out.println(i);
         }
+        System.out.println();
     }
 }
